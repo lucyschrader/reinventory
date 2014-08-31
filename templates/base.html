@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="inventory">
+    <title>natlib.govt.nz (re)inventory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+    <!-- angular.js -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+
+    <!-- local js -->
+    <script type="text/javascript" src="static/main.js"></script>
+
+    <!-- local css -->
+    <link rel="stylesheet" type="text/css" href="static/override.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <h1>reinventorying natlib.govt.nz <small>because I always restart rpgs</small></h1>
+        <ul class="nav nav-tabs">
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="stripe"></div>
+{% block content %}
+{% endblock %}
+</body>

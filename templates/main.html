@@ -1,0 +1,10 @@
+{% include 'base.html' %}
+{% block content %}
+<div class="container" ng-controller="InventoryController as inventory">
+<input ng-model="query" type="text" class="form-control" placeholder="Live search">
+<div ng-repeat="record in records | filter: query | orderBy:orderCol">
+    {% include 'page-list.html' %}
+</div>
+<div class="stripe"></div>
+</div>
+{% endblock %}

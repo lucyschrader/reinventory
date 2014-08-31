@@ -1,0 +1,13 @@
+<ul class="list-inline">
+    <li class="col-md-4">[[record.title]] <a href="[[record.url]]" target="_blank"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+    <li class="col-md-1">[[record.page_type]]</li>
+    <li class="col-md-3">[[record.contact]] <a href="mailto:[[record.contact_email]]"><span class="glyphicon glyphicon-envelope" title="Email [[record.contact]]"></span></a></li>
+    <li class="col-md-2"></li>
+    <li><button type="button" class="btn btn-default" ng-click="showDetails = ! showDetails">Click!</button></li>
+</ul>
+<div class="record-details" ng-class="{ 'hidden': ! showDetails }">
+<ul class="list-inline">
+    <li class="col-md-2">[[record.owner]]</li>
+    <li class="col-md-4">And here's some kind of a thing where a thing happens.</li>
+</ul>
+</div>

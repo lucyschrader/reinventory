@@ -1,0 +1,62 @@
+body {
+    background: url(images/noise-white.png) repeat scroll 0 0 #FFFFFF;
+}
+.stripe {
+    background: none repeat scroll 0 0 #663399;
+    border-top: 1px solid #000000;
+    clear: both;
+    height: 10px;
+}
+.header {
+    background: url(images/noise-black.png) repeat scroll 0 0 #FFFFFF;
+}
+h1 {
+    color: #D3D3D3;
+}
+table {
+    min-width: 100%;
+}
+th {
+    font-size: 1.3em;
+    padding: 6px;
+}
+td {
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 3px;
+    font-size: 1.1em;
+}
+a {
+    color: #663399;
+}
+a:hover, a:focus {
+    color: #663399;
+}
+li {
+    border-radius: 4px 4px 0px 0px;
+    margin-right: 2px;
+}
+li:hover {
+    background-color: #D9D9D9;
+}
+li.harvest {
+    background-color: #663399;
+}
+li a {
+    color: #D9D9D9;
+}
+.nav-tabs > li > a {
+    margin-right: 0px;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.record-details {
+    max-height: 100px;
+    transition: .8s;
+    overflow: hidden;
+}
+
+.record-details.hidden {
+    max-height: 0;
+}
